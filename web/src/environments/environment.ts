@@ -7,7 +7,9 @@ export const environment = {
   auth: {
     domain: 'Auth0Domain',
     clientId: 'Auth0ClientId',
-  }
+    audience: 'Auth0Audience'
+  }, 
+  ApiUrl: 'https://localhost:7209/'
 };
 /*
  * For easier debugging in development mode, you can import the following file
